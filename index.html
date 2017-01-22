@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body{
+        background-color:black;
+        margin: 0;
+      }
+      canvas{
+        display:inline-block;
+        min-width:800px;
+        min-height:450px;
+        margin-left:auto;
+        margin-right:auto;
+        image-rendering: pixelated;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- 18.189.109.47:8000 -->
+    <script src="socket.io/socket.io.js"></script>
+    <script src="node_modules/phaser/build/phaser.js"></script>
+    <script src="js/Constants.js"></script>
+    <script src="js/Level.js"></script>
+    <script src="js/NetworkedPlayer.js"></script>
+    <script src="js/NetworkedPowerup.js"></script>
+    <script src="states/Splash.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/networking.js"></script>
+  </body>
+</html>
